@@ -1,0 +1,9 @@
+.footer {
+    padding-top: 10px;
+    background-color: #380303;
+    height: 300px;
+}
+.footer-text{
+    text-align: center;
+    color: blanchedalmond;
+}

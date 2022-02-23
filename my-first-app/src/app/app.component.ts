@@ -10,13 +10,16 @@ export class AppComponent {
   title = 'my-first-app';
   imgUrl=".././assets/imgs/latte-image.png"
 
-  count=0;
+count=0;
 counterval(){
-  this.count++;
+this.count++;
 
 }
 fname="";
+lname="";
 fillname(){
-  this.fname="purva"
+  this.fname="";
+  this.lname="";
+
 }
 }

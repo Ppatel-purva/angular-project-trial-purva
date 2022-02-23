@@ -1,0 +1,26 @@
+.coffee-nav{
+	float: right;
+	height: 100%;
+}
+ 
+.navbar {
+    background-color: #640606;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.navlink {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navAnchor {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    float:right;
+    margin: 10px;  
+}
+
+

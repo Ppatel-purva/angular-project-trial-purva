@@ -1,0 +1,16 @@
+.footer {
+    padding-top: 10px;
+    background-color: #380303;
+    height: 300px;
+}
+.footer-text{
+    text-align: center;
+    color: blanchedalmond;
+}
+.btn{
+    background: rgb(122, 5, 5);
+    border: none;
+}
+.footer-list{
+    text-align: left;
+}
