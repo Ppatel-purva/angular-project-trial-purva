@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { MonoTypeOperatorFunction } from 'rxjs';
 
 @Component({
   selector: 'app-header',
@@ -11,5 +12,15 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  count=0;
+  counters = ["0"];
+  incrementcounter(newItem:string){
+    this.counters.push(newItem);
+    this.count++;
+  }
+  // @Input() strrecived:any;
+//   @Input() count=0;
+//  addcart(){
+//  this.count++;
+// }
 }

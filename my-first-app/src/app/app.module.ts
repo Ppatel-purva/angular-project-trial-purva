@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -12,6 +13,7 @@ import { CoffeeshopelogoComponent } from './coffeeshopelogo/coffeeshopelogo.comp
 import { CoffeeshopefooterComponent } from './coffeeshopefooter/coffeeshopefooter.component';
 import { CoffeeshopecarausalComponent } from './coffeeshopecarausal/coffeeshopecarausal.component';
 import { CoffeefooterComponent } from './coffeefooter/coffeefooter.component';
+import { ProductsComponent } from './header/products/products.component';
 
 @NgModule({
   declarations: [
@@ -24,14 +26,17 @@ import { CoffeefooterComponent } from './coffeefooter/coffeefooter.component';
     CoffeeshopefooterComponent,
     CoffeeshopecarausalComponent,
     CoffeefooterComponent,
+    ProductsComponent,
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule
  
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+ 
