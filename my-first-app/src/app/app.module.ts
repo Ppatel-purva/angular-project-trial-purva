@@ -14,6 +14,9 @@ import { CoffeeshopefooterComponent } from './coffeeshopefooter/coffeeshopefoote
 import { CoffeeshopecarausalComponent } from './coffeeshopecarausal/coffeeshopecarausal.component';
 import { CoffeefooterComponent } from './coffeefooter/coffeefooter.component';
 import { ProductsComponent } from './header/products/products.component';
+import { ProductsDiscriptionComponent } from './header/products-discription/products-discription.component';
+import { AddtocartComponent } from './addtocart/addtocart.component';
+import { AddtoproductdiscriptionComponent } from './addtoproductdiscription/addtoproductdiscription.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import { ProductsComponent } from './header/products/products.component';
     CoffeeshopecarausalComponent,
     CoffeefooterComponent,
     ProductsComponent,
+    ProductsDiscriptionComponent,
+    AddtocartComponent,
+    AddtoproductdiscriptionComponent,
     
   ],
   imports: [

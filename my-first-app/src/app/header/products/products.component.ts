@@ -11,10 +11,16 @@ export class ProductsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  @Output() newItemEvent = new EventEmitter<string>();
+  @Output() newItemEvent = new EventEmitter();
 
-    addNewItem(value:string){
-    this.newItemEvent.emit(value);
+    additem(){
+    this.newItemEvent.emit();
+    // img1Url =".././assets/imgs/mocha-image.png";
+    // img2Url =".././assets/imgs/mocha-image.png";
+    // img3Url =".././assets/imgs/mocha-image.png";
+
+    // description =false;
+    // show_discription
   }
   }
 //   @Input() strrecived:any;
