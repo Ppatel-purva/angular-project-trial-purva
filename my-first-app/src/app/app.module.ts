@@ -17,6 +17,8 @@ import { ProductsComponent } from './header/products/products.component';
 import { ProductsDiscriptionComponent } from './header/products-discription/products-discription.component';
 import { AddtocartComponent } from './addtocart/addtocart.component';
 import { AddtoproductdiscriptionComponent } from './addtoproductdiscription/addtoproductdiscription.component';
+import {DatetimeService} from './datetime.service';
+import { UserinfoService } from './userinfo.service';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,7 @@ import { AddtoproductdiscriptionComponent } from './addtoproductdiscription/addt
     FormsModule
  
   ],
-  providers: [],
+  providers: [DatetimeService,UserinfoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
