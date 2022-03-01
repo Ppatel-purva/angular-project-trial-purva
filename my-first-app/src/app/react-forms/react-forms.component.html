@@ -1,0 +1,14 @@
+<p>react-forms works!</p>
+<div class="container">
+    <form [formGroup]="myForm" (ngsubmit)="onsubmit(myForm)">
+<label>Name</label>
+<input formControlName="name" placeholder="enter name">
+
+<label>Email</label>
+<input formControlName="email" placeholder="enter email">
+
+<label>Message</label>
+<input formControlName="Message" placeholder="enter Message">
+<button>Submit</button>
+</form>
+</div>
