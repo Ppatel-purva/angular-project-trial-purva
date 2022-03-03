@@ -1,1 +1,22 @@
-<app-reactive-address-forms></app-reactive-address-forms>
+<!-- <app-reactive-address-forms></app-reactive-address-forms> -->
+
+<div class="container">
+        <label>enter id</label>
+        <input type="number" name="id" [(ngModel)]="id">
+        <label>ID</label>
+        <input type="number" value="id" placeholder="{{id}}" [(ngModel)]="id"> 
+        <label>Title</label>
+        <input type="text" value="title" placeholder="{{title}}" name="title" [(ngModel)]="title">
+        <label>Author</label>
+        <input type="text" value="title" placeholder="{{author}}" name="author" [(ngModel)]="author">
+        <button type="button" class="btn btn-primary" (click)="GetData()">GET data</button>
+</div>
+<p>ID:{{id}}</p>
+<p>Title: {{title}}</p>
+<p>Author: {{author}}</p>
+
+<!-- <ul *ngFor="let d of htdata">
+    <li>{{d.id}}</li>
+    <li>{{d.title}}</li>
+    <li>{{d.author}}</li>
+</ul> -->
